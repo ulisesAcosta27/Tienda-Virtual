@@ -1,0 +1,29 @@
+.card-products-container{
+    width: 19rem;
+    height: 20rem;
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: .5rem 0;
+    color: black;
+}
+
+.card-products-img img {
+    width: 17rem;
+}
+
+.card-products-name p{
+    text-decoration: underline;
+    font-weight: 600;
+    color: #4646ff;
+    padding: .2rem;
+}
+.card-products-name p:hover{
+    color: #0000e3;
+    
+}
+.card-products-price p{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,11 @@
+.products-container{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.products h2{
+    padding: 2rem 0;
+}

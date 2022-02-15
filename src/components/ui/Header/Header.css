@@ -1,0 +1,45 @@
+.navbar-container{
+    background-color: #21232A;
+    height: 3rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+}
+
+.logo-container p{
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+ul{
+    margin-right: 1.5rem;
+}
+
+
+.input-container input {
+    height: 1.5rem;
+    background-color: white;
+    color: grey;
+    font-size: 1rem;
+    margin: 0 .5rem;
+    border-radius: 5px;
+}
+
+.input-container button{
+    background-color: #21232A;
+    color: white;
+    border: 2px solid greenyellow;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 4rem;
+    height: 1.6rem;
+}
