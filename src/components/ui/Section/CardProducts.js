@@ -8,10 +8,10 @@ const CardProducts = ({ itemsCards }) => {
         {
             itemsCards.map( item => (
                 <div className='card-products-container' key={ item.name } >
-                    <Link to='/cart' className='card-products-img'>
+                    <Link to={`/cart/${ item.id }`} className='card-products-img'>
                         <img src={ item.image } alt={ item.name }/>
                     </Link>
-                    <Link to='/cart' className='card-products-name'>
+                    <Link to={`/cart/${ item.id }`} className='card-products-name'>
                         <p>{ item.name }</p>
                     </Link>
                     <div className='card-products-stars'>

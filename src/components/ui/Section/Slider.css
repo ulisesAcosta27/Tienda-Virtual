@@ -1,0 +1,18 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
+
+.card-image img {
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.card-text {
+    margin: 1rem 0
+}

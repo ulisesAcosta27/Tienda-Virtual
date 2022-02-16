@@ -1,21 +1,22 @@
-import React from 'react'
-import ItemValues from './ItemValues'
-import './Header.css'
-  
+import React from "react";
+import ItemValues from "./ItemValues";
+import "./Header.css";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const itemValue = [
-    { link: '/login', name: 'Login' },
-    { link: '/cart', name: 'Carrito' }
-  ]
+    { link: "/login", name: "Login" },
+    { link: "/cart", name: "Carrito" },
+  ];
 
   return (
-    <nav className='navbar-container'>
-      <div className='search-container'>
-        <div className='logo-container'>
+    <nav className="navbar-container">
+      <div className="search-container">
+        <Link to="/" className="logo-container">
           <p>Tienda Virtual</p>
-        </div>
-        <div className='input-container'>
-          <input type='text' />
+        </Link>
+        <div className="input-container">
+          <input type="text" />
           <button>Buscar</button>
         </div>
       </div>
@@ -23,7 +24,7 @@ const Header = () => {
         <ItemValues items={itemValue} />
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
